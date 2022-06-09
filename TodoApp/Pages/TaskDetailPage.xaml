@@ -20,7 +20,7 @@
             VerticalOptions="StartAndExpand">
 
                 <Label Text="Name" />
-                <Entry Text="{Binding TaskModel.Name, Mode=TwoWay}" />
+                <Entry Text="{Binding TaskModel.Name, Mode=TwoWay}" BackgroundColor="White" />
 
                 <StackLayout Orientation="Horizontal">
                     <Label
